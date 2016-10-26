@@ -1,6 +1,6 @@
 {% set name = "cssselect" %}
-{% set version = "0.9.2" %}
-{% set sha256 = "76f090e40297b21fb57459b0ea73c8e46046feaf872909224d1fb861c1703ef5" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "2f757203e03aedcc1b31a452cf2752728b843351b7819ea2d4cd9ef38df7b324" %}
 
 package:
   name: {{ name }}
