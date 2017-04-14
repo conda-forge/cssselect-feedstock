@@ -11,6 +11,18 @@ Summary: CSS Selectors for Python
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cssselect-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cssselect-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/cssselect-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cssselect-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cssselect-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cssselect-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cssselect/badges/version.svg)](https://anaconda.org/conda-forge/cssselect)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cssselect/badges/downloads.svg)](https://anaconda.org/conda-forge/cssselect)
+
 Installing cssselect
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `cssselect` available on your plat
 ```
 conda search cssselect --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cssselect-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cssselect-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cssselect-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cssselect-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cssselect-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cssselect-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cssselect/badges/version.svg)](https://anaconda.org/conda-forge/cssselect)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cssselect/badges/downloads.svg)](https://anaconda.org/conda-forge/cssselect)
 
 
 Updating cssselect-feedstock
