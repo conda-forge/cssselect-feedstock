@@ -3,13 +3,26 @@ About cssselect
 
 Home: https://pythonhosted.org/cssselect/
 
-Package license: BSD3
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
 Summary: CSS Selectors for Python
 
+Cssselect parses CSS3 Selectors and translate them to XPath 1.0
+expressions. Such expressions can be used in lxml or another XPath engine
+to find the matching elements in an XML or HTML document.
 
+
+Current build status
+====================
+
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/cssselect-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cssselect-feedstock)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cssselect/badges/version.svg)](https://anaconda.org/conda-forge/cssselect)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cssselect/badges/downloads.svg)](https://anaconda.org/conda-forge/cssselect)
 
 Installing cssselect
 ====================
@@ -33,7 +46,6 @@ conda search cssselect --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
@@ -55,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
@@ -67,18 +80,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cssselect-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cssselect-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cssselect-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cssselect-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cssselect-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cssselect-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cssselect/badges/version.svg)](https://anaconda.org/conda-forge/cssselect)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cssselect/badges/downloads.svg)](https://anaconda.org/conda-forge/cssselect)
 
 
 Updating cssselect-feedstock
