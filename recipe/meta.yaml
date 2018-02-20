@@ -1,6 +1,6 @@
 {% set name = "cssselect" %}
-{% set version = "1.0.1" %}
-{% set sha256 = "cdfa17ab5dc8818209f310a930b18d3035a4585ddd2c179e833036e2dde511c6" %}
+{% set version = "1.0.3" %}
+{% set sha256 = "203d9691c42c13cffe26a2f8fc714977882fcf54a6df82c8eda3371f6beaecdb" %}
 
 package:
   name: {{ name }}
@@ -39,7 +39,7 @@ about:
     to find the matching elements in an XML or HTML document.
   doc_url: https://cssselect.readthedocs.io/en/latest/
   doc_source_url: https://github.com/scrapy/cssselect/blob/master/README.rst
-  dev_url: https://github.com/SimonSapin/cssselect
+  dev_url: https://github.com/scrapy/cssselect
 
 extra:
   recipe-maintainers:
