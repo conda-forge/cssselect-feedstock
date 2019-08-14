@@ -1,6 +1,6 @@
 {% set name = "cssselect" %}
-{% set version = "1.0.3" %}
-{% set sha256 = "203d9691c42c13cffe26a2f8fc714977882fcf54a6df82c8eda3371f6beaecdb" %}
+{% set version = "1.1.0" %}
+{% set sha256 = "dde8c1d4a2c82de6889a3af1c1adbce1a6f3ec08b07a854d873f3f3da92960af" %}
 
 package:
   name: {{ name }}
@@ -14,11 +14,12 @@ source:
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
+  host:
     - python
+    - pip
     - setuptools
 
   run:
