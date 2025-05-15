@@ -3,13 +3,11 @@ About cssselect-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cssselect-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pythonhosted.org/cssselect/
+Home: https://github.com/scrapy/cssselect
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Summary: CSS Selectors for Python
-
-Development: https://github.com/scrapy/cssselect
 
 Documentation: https://cssselect.readthedocs.io/en/latest/
 
@@ -152,5 +150,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@thewchan](https://github.com/thewchan/)
 * [@vamega](https://github.com/vamega/)
 
