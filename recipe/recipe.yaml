@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: cssselect
-  version: 1.4.0
+  version: "1.5.0"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/cssselect-${{ version }}.tar.gz
-  sha256: fdaf0a1425e17dfe8c5cf66191d211b357cf7872ae8afc4c6762ddd8ac47fc92
+  sha256: 3cbe82dd7acbee9ba9e5723b5f9e4749826912f1fb31cd7f92aabed5fde15b15
 
 build:
   number: 0
